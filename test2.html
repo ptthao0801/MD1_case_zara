@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Search</title>
+</head>
+<body>
+<style>
+    .navigation {
+        display: none;
+        position: absolute;
+        background-color: red;
+        padding: 10px;
+        list-style-type: none;
+        margin: 0;
+    }
+
+    .hover-trigger:hover + .navigation {
+        display: block;
+    }
+</style>
+<div class="container">
+    <button class="hover-trigger">Hover Me</button>
+    <ul class="navigation">
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+    </ul>
+</div>
+
+
+</body>
+</html>
+
